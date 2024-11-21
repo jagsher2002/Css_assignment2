@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+    font-family: 'Playfair Display';
+   
+    line-height: 1.8;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color:brown;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+}
+
+
+.card {
+    border-radius: 10px;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+.navbar-light .nav-link,
+.navbar-light .navbar-brand {
+    color: darkgrey;
+    transition: color 0.3s ease;
+}
+
+.navbar-light .nav-link:hover {
+    color: darkblue;
+}
+
+.btn-warning {
+    color: grey;
+}
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.review-item {
+    background:black;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
